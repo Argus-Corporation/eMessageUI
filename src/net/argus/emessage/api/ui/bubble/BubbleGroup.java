@@ -125,8 +125,8 @@ public class BubbleGroup extends JPanel {
 				/*Color c = g2d.getColor();
 				g2d.setColor(Color.decode("#FF00FF"));
 				g2d.drawRect(0, 0, b.getWidth(), b.getHeight());
-				g2d.setColor(c);*/
-				
+				g2d.setColor(c);
+				*/
 				g2d.translate(-transX, b.getHeight() + (b.getMeta().isDisplayTail()?instance.getSpace():instance.getSmallSpace()) * (int) instance.getCoef());
 			}
 		}catch(ConcurrentModificationException e) {
